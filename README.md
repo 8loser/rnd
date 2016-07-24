@@ -13,26 +13,36 @@ d: 阿拉伯數字
 #範例
 回傳三個隨機大寫英文字母
 
->shake('u3');
+```
+shake('u3');
+```
 
 回傳一個隨機小寫英文字母
 >shake('l1');
 
 回傳四個隨機阿拉伯數字
->shake('d4');
+```
+shake('d4');
+```
 
 回傳兩個隨機小寫英文字母、一個阿拉伯數字
->shake('l2d1');
+```
+shake('l2d1');
+```
 
 #材料包
 大寫英文字母
 
->upperPackage = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+```
+upperPackage = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+```
 
 小寫英文字母
-
->lowerPackage = "abcdefghijklmnopqrstuvwxyz";
+```
+lowerPackage = "abcdefghijklmnopqrstuvwxyz";
+```
 
 阿拉伯數字
-
->digitalPackage = "0123456789";
+```
+digitalPackage = "0123456789";
+```
